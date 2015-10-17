@@ -1,0 +1,314 @@
+
+
+.fondo{
+	background-image:url(../img/petbio-dog.jpg);
+	background-attachment:local;
+	min-height:350px;
+	background-size:cover;
+	background-position:center;
+}
+
+.fondo2{
+	background-color:#463D42;
+	background-attachment:;
+	background-size:100%;
+	height:400px;
+}
+
+.logo{
+	width:50%;
+	height:50%;
+	margin-top:-5%;
+	margin-left:40%;
+	position:absolute;
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+.font{
+	font-size:40px;
+	color:white !important;
+	text-align:center;
+	padding-top:10%;
+
+}
+
+nav a:hover {
+	background-color:#78B964;
+	border:1px solid #16a085;
+}
+
+.button{
+	background-color:#78B964;
+	width:300px;
+	height:50px;
+	margin:5%;
+	padding:1%;
+	margin-left:40%;
+	text-align:center;
+	text-transform:capitalize;
+
+    color:white;
+    float: left;
+    border: 1px solid #339900;
+    border-radius:10px;
+    box-shadow: inset 0px -3px 0px 0px rgba(51,40,47,0.15);
+}
+
+nav a{
+	text-decoration:none;
+	padding:10px 15px;
+	color:white;
+	font-size:20px;
+}
+/*aqui es el enlace del boton */
+.hover{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode:forwards;
+   animation-duration: 1s;  
+   animation-fill-mode:fordwards;   
+}
+
+.hover:hover{
+    cursor:pointer;
+    -webkit-animation-name: hoverAnim;
+    animation-name: hoverAnim;
+}
+
+.bginfo{
+	 background-color: #F6F7F1 !important;
+	 width: 100%;
+	 height: 450px;
+}
+
+.bginfo2{
+	 background-color: #FFFFFF;
+	 width: 83%;
+	 height: 289px;
+	 margin-top: 11.5%;
+	 margin-left: 3px;
+	 padding: 0 7% 7% 7%
+}
+
+.bor{
+	 border: solid 2px; 
+}
+
+.hands{
+	 padding-bottom: 5%;
+	 width: 100%;
+	 height: 370px;
+	 margin-top:75px;
+	 margin-left:-2%; 
+
+}
+/* Iconos de zona de informaciòn*/
+
+.headerinfo{
+	 margin-right: 5%;
+	 margin-top:7%;
+	 width: 60%;
+}
+
+div .marg-top8 h2{
+	 font-size: 18px;
+	 margin-top: -5%;
+	 margin-left: 5%
+}
+div .headerinfo h2{
+	 font-size:28px
+}
+
+div .headerinfo p{
+	 font-size: 25px;
+}
+.icon{
+	 width: 7%;
+     margin-left: -6%;
+     padding-top: 8%;
+}
+
+.marg-top8{
+	 margin-top: -8%;
+}
+
+hr{
+	 background-color: #70b262;
+	 width: 90%;
+	 height:5px;
+}
+
+div .marg-top8 p{
+	 font-size: 14px;
+     color: #d1a96c
+}
+
+.marg-tl{
+     margin-top: 3%;
+     margin-left: 5%
+}
+
+.bggreen{
+     background-color: #70b262;
+     width:100% ;
+     height: 150px;
+}
+
+.textog{
+	text-align: center;
+	color:white !important;
+	font-size: 25px;
+	padding-top: 5%;
+}
+
+*{
+	text-decoration: none;
+	color: #635959;
+	font-style: normal;
+}
+.info{
+	color: #2c3e50;
+	font-size: 28px;
+}
+.info2{
+	color: #2c3e50;
+	font-size: 28px;
+	font-weight: bold;
+}
+.hand{
+	width: 538px;
+	height: 438px;
+	position: absolute;
+	clip-left: rect(250px);
+}
+ul{
+	font-size: 18px;
+	padding: 30px 0px 0px 60px;
+}
+li{
+	list-style-image:url(../sprites/check.svg);
+	padding: 8px 15px;
+}
+hr{
+	width: 310px;
+	height: 5px;
+	background-color: #70B262;
+}
+.boxinfo{
+	margin-top: 40px;
+	margin-left: 35px;
+}
+.box1{
+	margin-top: 40px;
+	margin-bottom: 30px;
+} 
+ul.newlogs{
+	font-size: 12px;
+	font-style: uppercase;
+	padding-left: 150px;
+	float: left;
+}
+nav li {
+	position: relative;
+	float: left;
+	margin: 0;
+}
+#nfc{
+	list-style-image:url(../sprites/NFCicon.svg);
+	padding: 0px 30px 0px 0px;
+}
+#qr{
+	list-style-image:url(../sprites/QRicon.svg);
+	padding: 0px 30px 0px 0px;
+}
+#tag{
+	list-style-image:url(../sprites/iDicon.svg);
+	padding: 0px 30px 0px 0px;
+}
+.box2{
+	background-color: #463D42;
+	height: 250px;
+	margin-bottom: 50px;
+}
+.renglon{
+	color: #FFF;
+	font-size: 36px;
+}
+.renglon2{
+	color: #FFF;
+	font-size: 36px;
+	font-weight: bold;
+}
+.boxinfo2{
+	padding-top: 60px;
+	text-align: center;
+}
+.placa:hover {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	left: 0;
+	width: 100%;
+	height: 0px;
+	margin-top: -140px;
+	overflow: visible;
+	background-color: #463D42;
+	/*esta es el enlace*/
+	-moz-animation: .5s ease 0s swing;
+    -webkit-animation:swing .5s ease-in-out;
+}
+.box3{
+	height: 250px;
+	margin-top: 100px;	
+	margin-bottom: 50px;
+}
+.iconos{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.mitades{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.buy{
+	font-size: 25px;
+	padding-top: 20px;
+}
+.raya{
+	border-left: 3px solid #EDEDDE;
+}
+.comprab{
+	line-height: 1.467;
+	padding: 8px 12px;
+	height: 42px;
+	border: 2px solid #EDEDDE;
+	border-radius: 6px;
+}
+.precio{
+	background-color: #EDEDDE;
+	border: 2px solid #EDEDDE;
+	color: #635959;
+	padding: 10px 12px;
+	font-size: 15px;
+	text-align: center;
+}
+.description{
+	margin: 30px;
+	font-size: 14px;
+	color: #635959;
+	line-height: 23px;
+}
+.button2{
+	background-color:#78B964;
+	width:150px;
+	height:50px;
+	padding:15px;
+	margin-left:180px;
+	text-align:center;
+	text-transform:capitalize;
+    color:white;
+    float: left;
+    border: 1px solid #339900;
+    border-radius:10px;
+    box-shadow: inset 0px -3px 0px 0px rgba(51,40,47,0.15);
+}
